@@ -1,0 +1,31 @@
+{
+  "name": "furniture-store-backend",
+  "version": "1.0.0",
+  "description": "Backend for a furniture store inventory contros system using prisma, node, express and authentication with jwt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandallAgHodg/furniture-store-backend.git"
+  },
+  "keywords": [
+    "MERN",
+    "Prisma",
+    "Express",
+    "REST-API"
+  ],
+  "author": "Randall Agustin Hodgson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RandallAgHodg/furniture-store-backend/issues"
+  },
+  "homepage": "https://github.com/RandallAgHodg/furniture-store-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
